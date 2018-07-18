@@ -1,0 +1,269 @@
+@font-face {
+    font-family: gotham light;
+    src: url(http://localhost/spotsaloon/assets/fonts/Gotham-Light-Regular.otf);
+}
+@font-face {
+    font-family: gotham light italic;
+    src: url(http://localhost/spotsaloon/assets/fonts/GothamLight-Italic.otf);
+}
+@font-face {
+    font-family: gotham thin;
+    src: url(http://localhost/spotsaloon/assets/fonts/Gotham-Thin-Regular.otf);
+}
+
+body{
+	font-size:14px;
+	font-family:gotham light !important;
+	padding-top: 5%;
+}
+h1,h2,h3,h4,h5,p,span,div,a,strong,b,li,ul,select,input,textarea,checkbox,radio{
+	font-family:gotham light !important;
+}	
+.title {
+    font-family: gotham thin !important;
+    font-size: 45px;
+    margin-bottom: 8%;
+}
+.title span {
+    font-family: gotham thin!important;
+    font-size: 24px;
+	font-weight: 600;
+}
+.title::before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 120px;
+    background-image: url(http://localhost/spotsaloon/assets/images/title-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    right: 20%;
+    top: -24px;
+}
+.bnr-form h2{
+	color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+	font-family: gotham light italic !important;
+}
+.container{
+	height:auto !important;
+}
+.logo-main img {
+    width: 42%;
+    padding: 0;
+}
+.reviews-list {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    background: #EDEDEE;
+    margin-bottom: 11px;
+}
+.reviews_image {
+    width: 25%;
+    float: left;
+    position: relative;
+    height: 142px;
+    background-size: cover;
+}
+.reviews_image img{
+    width: 100%;
+}
+.reviews-content {
+    float: left;
+    width: 75%;
+    padding-left: 16px;
+}
+.reviews-content h3 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+.app-links a.app-link {
+    display: inline-block;
+}
+.app-content h2{
+	margin-bottom:20px;
+}
+.app-content p{
+	margin-bottom:20px;
+}
+.app-content {
+    margin-top: 12%;
+}
+.testino-main {
+    padding-top: 30px;
+    background-image: url(http://localhost/spotsaloon/assets/images/45f.JPG);
+    height: 300px;
+    padding-bottom: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	position:relative;
+}
+.testino-main::before {
+    content: "";
+    position: absolute;
+    background: rgba(0,0,0,0.1);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.serclick button {
+    background: none;
+    border: none;
+}
+.styled-select{
+	color: #F7A99A;
+}
+
+.ftr_list-main {
+    padding-bottom: 20px;
+}
+.copy-right {
+    color: #fff;
+}
+.copy-right a{
+    color: #fff;
+}
+.user-tab li.active {
+    background: #B477B0;
+}
+.profile-nav li.active {
+    background: #B477B0;
+}
+.login-header img {
+    display: inline-block;
+    width: 139px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+.special-offers h1 {
+    position: relative;
+    margin-bottom: 36px;
+    display: inline-block;
+}
+.special-offers {
+	position: relative;
+	padding: 40px 0px;
+}
+.special-offers .title::before{
+	right: 28%;
+    top: -43px;
+}
+.ftr_social {
+    position: fixed;
+    right: 0;
+    width: 37px;
+    top: 27%;
+}
+.ftr_social  ul li {
+    list-style: none !important;
+    padding: 10px 0 10px 10px;
+    font-size: 12px;
+    border: 1px solid;
+    background: #B477B0;
+    color: #fff;
+}
+.ftr_social  ul li a{
+	color:#fff;
+}
+.ftr_social  ul li:hover {
+    background: #fff;
+    color: #B477B0;
+}
+.ftr_social  ul li:hover a{
+	color:#B477B0;
+}
+
+
+
+
+/*************New Css****************/
+.nav.navbar-nav li.active a {
+    color: #B477B0;
+}
+.nav>li {
+    padding: 0px 6px;
+}
+.search-header {
+    background: #b078bc;
+    text-align: center;
+    padding: 10px;
+}
+.search-header h1::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50px;
+    left: -16px;
+    top: 10px;
+}
+.search-header h1::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50px;
+    right: -16px;
+    top: 10px;
+}
+.place-select::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url(http://localhost/spotsaloon/assets/images/select-arrow.PNG);
+    right: 25px;
+    top: 7px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+span.start-content {
+    font-size: 30px;
+	color:#b078bc;
+}
+.shop-page-services-list-nm h4 {
+    float: left;
+}
+.shop-page-services-list-nm button {
+    float: right;
+    border: none;
+    background: #B477B0;
+    color: #fff;
+    line-height: normal;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.book-cart-col {
+    background: #eee;
+    padding: 20px;
+    min-height: 200px;
+}
+.service-name h3 i {
+    margin-right: 10px;
+    color: #B477B0;
+    width: 25px;
+    height: 25px;
+    left: 0;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+}
+.service-name.collapsed .fa-angle-up{
+	display:block;
+}
+.service-name.collapsed .fa-angle-down{
+	display:none;
+}
+.service-name .fa-angle-up{
+	display:none;
+}
+.service-name .fa-angle-down{
+	display:block;
+}
